@@ -1,7 +1,7 @@
 <?php
 namespace Shop\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class ListController extends Controller {
     public function index(){
     	$this->display();
     }

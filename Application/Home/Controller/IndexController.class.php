@@ -5,4 +5,11 @@ class IndexController extends Controller {
     public function index(){
     	$this->display();
     }
+    public function login(){
+    	if (IS_POST) {
+    		$data = I();
+    	}else {
+    		$this->display();
+    	}
+    }
 }
