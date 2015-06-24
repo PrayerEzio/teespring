@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * 系统非常规MD5加密方法
  * @param  string $str 要加密的字符串
@@ -155,3 +156,8 @@ function decrypt($txt, $key = '')
 	$tmp = str_replace(array('-','_','.'),array('+','/','='),$tmp);
 	return trim(base64_decode($tmp));
 } */
+=======
+function p($arr){
+    dump($arr,1,'<pre>',0);
+}
+>>>>>>> 0754ef273924143c71b55cb9ae0a61b4226a588e

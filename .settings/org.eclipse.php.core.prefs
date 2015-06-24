@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
+=======
+include_path=0;/teespring
+>>>>>>> 0754ef273924143c71b55cb9ae0a61b4226a588e
 use_asp_tags_as_php=false
