@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
+namespace Home\Controller;
+=======
 namespace Admin\Controller;
+>>>>>>> 0754ef273924143c71b55cb9ae0a61b4226a588e
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
